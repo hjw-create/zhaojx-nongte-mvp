@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>校园本地农特产试尝意向 · 赵建仙</title>
+<meta name="description" content="帮沈阳高校在校大学生留下辽宁本地农特产试尝/小样意向。不做医疗功效，不建厂，小规模试卖验证。"/>
+<style>
+:root{--ink:#1c3328;--muted:#5a6d62;--line:#cfe0d6;--bg:#eef6f1;--card:#fbfefb;--accent:#2f6b52;--accent2:#5a9a6a;--warn:#9a6b20;--soft:#e3f0e8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);line-height:1.65;background:radial-gradient(900px 420px at 10% -10%,#cfe8d8,transparent 55%),radial-gradient(700px 360px at 100% 0,#dcefd8,transparent 48%),linear-gradient(180deg,#f3faf5 0%,var(--bg) 40%,#f7fbf8 100%)}
+.top{position:sticky;top:0;z-index:10;background:rgba(238,246,241,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:920px;margin:0 auto;padding:10px 16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.brand{font-weight:800}.nav a{margin-left:4px;text-decoration:none;color:var(--ink);font-size:13px;padding:6px 10px;border-radius:999px}
+.nav a:hover{background:#fff;border:1px solid var(--line)}
+.wrap{max-width:920px;margin:0 auto;padding:18px 16px 64px}
+.kicker{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);background:var(--soft);border:1px solid #b9d6c0;border-radius:999px;padding:4px 10px;margin-bottom:10px}
+h1{margin:0 0 10px;font-size:clamp(28px,5vw,40px);line-height:1.2;color:var(--accent)}
+.lead{color:var(--muted);font-size:17px;max-width:44em}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{font-size:12px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.btn{appearance:none;border:0;cursor:pointer;font:inherit;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px}
+.btn-p{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}.btn-g{background:#fff;color:var(--ink);border:1px solid var(--line)}.btn-block{width:100%}
+.warn{margin:16px 0;padding:14px 16px;border-radius:14px;background:#fff8ee;border:1px solid #efd3a8;border-left:6px solid var(--warn)}
+.warn h2{margin:0 0 6px;font-size:16px;color:var(--warn)}.warn ul{margin:0;padding-left:1.2em}
+.grid{display:grid;gap:12px}@media(min-width:760px){.g2{grid-template-columns:1.05fr .95fr}.g3{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(28,51,40,.05)}
+.card h2{margin:0 0 8px;font-size:18px;color:var(--accent)}.card p,.card li{color:var(--muted)}
+.risk{padding:14px;border-radius:14px;background:#fff;border:1px dashed var(--line)}
+.risk b{display:block;font-size:17px;color:var(--accent);margin-bottom:6px}
+.risk small{display:block;color:var(--muted);font-size:13px;line-height:1.5}
+.q{margin:0 0 10px;padding:10px 12px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 10px 10px 0}
+.q cite{display:block;margin-top:4px;font-style:normal;font-size:12px;color:var(--muted)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{position:relative;padding:10px 10px 10px 46px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;background:#fff;color:var(--muted)}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:10px;top:10px;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+label.ck{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:12px;margin:0 0 8px;background:#fff;cursor:pointer}
+label.ck input{margin-top:3px;width:18px;height:18px;accent-color:var(--accent)}
+label.ck:has(input:checked){border-color:#8fbc8f;background:#f4faf6}
+.field{margin:0 0 10px}.field>span{display:block;font-size:13px;font-weight:700;margin-bottom:4px;color:var(--ink)}
+.field input,.field select,.field textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
+.field textarea{min-height:72px;resize:vertical}
+.row2{display:grid;gap:10px}@media(min-width:560px){.row2{grid-template-columns:1fr 1fr}}
+.bar{height:8px;background:#d7e8de;border-radius:999px;overflow:hidden;margin:6px 0 8px}.bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,#5a9a6a,var(--accent));transition:width .2s}
+.msg{min-height:1.3em;font-weight:700}.ok{color:#0b6b4a}.err{color:#8b2e1a}
+.item{border:1px dashed var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:13px;background:#fff}.item b{display:block;margin-bottom:2px}
+.sec{margin-top:16px}footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 6px;word-break:break-all}
+.tl{border-left:3px solid #8fbc8f;margin:8px 0 0 6px;padding-left:14px}.tl li{margin:0 0 10px;list-style:none;color:var(--muted)}
+.faq details{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px;background:#fff}
+.faq summary{cursor:pointer;font-weight:700}.faq p{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.ex{display:grid;gap:8px;margin-top:8px}
+.ex div{padding:10px 12px;border-radius:10px;background:#fff;border:1px solid var(--line);font-size:13px;color:var(--muted)}
+.ex strong{color:var(--accent)}
+.hint{font-size:12px;color:var(--muted);margin:6px 0 0}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.stat{flex:1;min-width:110px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stat b{display:block;font-size:20px;color:var(--accent)}.stat span{font-size:12px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}
+.tags label{font-size:13px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
+.tags input{accent-color:var(--accent);margin-right:4px}
+.tags label:has(input:checked){border-color:var(--accent);background:var(--soft)}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in"><div class="brand">本地农特产 · 试尝意向</div><nav class="nav"><a href="#why">依据</a><a href="#pref">意向五项</a><a href="#wish">想买清单</a><a href="#book">预约试填</a><a href="#hist">本机记录</a></nav></div></header>
+<main class="wrap">
+<section>
+  <div class="kicker">沈阳农业大学 · 植物保护学院 · 课程 MVP</div>
+  <h1>想买靠谱本地特产，先留意向</h1>
+  <p class="lead">给<strong>沈阳高校在校大学生</strong>：线上怕假货、线下商超偏贵时，先勾清想买哪类<strong>辽宁本地农特产</strong>、预算与自提方式，再预约校园小样试尝。本页<strong>不做</strong>医疗功效宣传，<strong>不建厂</strong>，只做小规模试卖前的意向收集。</p>
+  <div class="chips">
+    <span class="chip">赵建仙 · 2024104100</span>
+    <span class="chip">校园本地农特产试尝意向·轻台账</span>
+    <span class="chip">路径 B · 绿色轻工具</span>
+    <span class="chip">记录仅存本机</span>
+  </div>
+  <div class="cta">
+    <a class="btn btn-p" href="#pref">勾意向五项</a>
+    <a class="btn btn-g" href="#wish">写想买清单</a>
+    <a class="btn btn-g" href="#book">留下预约</a>
+  </div>
+</section>
+
+<section class="warn">
+  <h2>边界三句（请先看）</h2>
+  <ul>
+    <li>只做校园试尝/小样<strong>意向收集</strong>与想买清单留痕，方便小规模拿货前听同学怎么说。</li>
+    <li>不做医疗功效、不承诺「包治/养生神效」、不建厂、不囤大批量货。</li>
+    <li>记录只存在这台设备浏览器；真要付钱买货，另当面确认品质与物流，不在本页下单。</li>
+  </ul>
+</section>
+
+<section class="sec grid g3">
+  <div class="risk"><b>怕假货</b><small>线上店铺难辨真假时，先用同学试尝与产地说明建立信任，再谈复购。</small></div>
+  <div class="risk"><b>怕偏贵</b><small>商超礼盒溢价高；本页先问预算与品类，避免一上来就推高客单。</small></div>
+  <div class="risk"><b>小步试卖</b><small>采纳校园流量、小成本起步；货源与损耗风险用小批量验证，不压货。</small></div>
+</section>
+
+<section class="sec grid g2" id="why">
+  <article class="card">
+    <h2>要对上的三件事</h2>
+    <blockquote class="q">想买辽宁地道农特产，线上怕假货，线下商超价格偏高。<cite>第1周假设 · 渠道不靠谱</cite></blockquote>
+    <blockquote class="q">同学愿意支持原产地，但缺少可信、性价比合适的校园购买入口。<cite>第1周假设 · 校园流量</cite></blockquote>
+    <blockquote class="q">先小规模拿货试尝，验证品类与预算，不直接大批量进货。<cite>第1周选择 · 风险自检</cite></blockquote>
+  </article>
+  <article class="card">
+    <h2>三步上手</h2>
+    <ol class="steps">
+      <li>勾齐意向五项（品类、痛点、自提、预算、边界自检）。</li>
+      <li>写下一条「想买清单」（品名/产地印象/预算），保存在本机。</li>
+      <li>愿试填就留 11 位手机，预约校园小样试尝对接。</li>
+    </ol>
+    <div class="stats">
+      <div class="stat"><b id="statPref">0</b><span>本机意向条数</span></div>
+      <div class="stat"><b id="statWish">0</b><span>想买清单</span></div>
+      <div class="stat"><b id="statBook">0</b><span>预约草稿</span></div>
+    </div>
+  </article>
+</section>
+
+<section class="sec card">
+  <h2>怎么用才不算糊弄（示例）</h2>
+  <div class="ex">
+    <div><strong>干货类：</strong>想买辽西杂粮/菌菇干货——勾「干货坚果」，预算 30–50，备注「宿舍煮粥用」。</div>
+    <div><strong>水果类：</strong>想尝辽宁苹果/蓝莓季节货——勾「时令水果」，选校园自提点，先小样再决定是否跟单。</div>
+    <div><strong>怕假：</strong>最怕线上假货——在痛点里选「更怕假货」，试尝时对照产地说明，不写「包真」夸张承诺。</div>
+    <div><strong>不做的：</strong>绿植养护方向已在第1周放弃；本页不卖花、不卖传感器、不写医疗功效。</div>
+  </div>
+</section>
+
+<section class="sec card" id="pref">
+  <h2>试尝意向五项</h2>
+  <p>五项都勾过才能保存。目标：打开就能说清「想买哪类、怕什么、怎么拿货」。</p>
+  <div class="bar"><i id="bar"></i></div>
+  <p id="barText" class="hint">已看 0 / 5</p>
+  <form id="prefForm">
+    <label class="ck"><input type="checkbox" name="c1"/> 想买品类已想过（干货/水果/杂粮/零食加工品等，下方会再选）</label>
+    <label class="ck"><input type="checkbox" name="c2"/> 主要痛点已选：更怕假货 / 更怕贵 / 两者都有</label>
+    <label class="ck"><input type="checkbox" name="c3"/> 取货方式已选：校园自提点 / 宿舍代收 / 仅先试尝再定</label>
+    <label class="ck"><input type="checkbox" name="c4"/> 预算区间已填，接受先小样再决定是否跟单</label>
+    <label class="ck"><input type="checkbox" name="c5"/> 边界自检：本页不承诺医疗功效、不建厂、不在此页付款下单</label>
+
+    <p style="font-size:13px;font-weight:700;margin:12px 0 4px">感兴趣的辽宁特产类型（可多选）</p>
+    <div class="tags" id="cats">
+      <label><input type="checkbox" name="cat" value="干货坚果"/>干货坚果</label>
+      <label><input type="checkbox" name="cat" value="杂粮粮油"/>杂粮粮油</label>
+      <label><input type="checkbox" name="cat" value="时令水果"/>时令水果</label>
+      <label><input type="checkbox" name="cat" value="果干零食"/>果干零食</label>
+      <label><input type="checkbox" name="cat" value="酱菜特产"/>酱菜特产</label>
+      <label><input type="checkbox" name="cat" value="其他本地货"/>其他本地货</label>
+    </div>
+
+    <div class="row2">
+      <label class="field"><span>主要痛点</span>
+        <select name="pain" required>
+          <option value="">请选择</option>
+          <option>更怕假货</option>
+          <option>更怕商超偏贵</option>
+          <option>两者都有</option>
+        </select>
+      </label>
+      <label class="field"><span>取货方式</span>
+        <select name="pickup" required>
+          <option value="">请选择</option>
+          <option>校园自提点</option>
+          <option>宿舍代收</option>
+          <option>仅先试尝再定</option>
+        </select>
+      </label>
+    </div>
+    <div class="row2">
+      <label class="field"><span>单次预算（元）</span>
+        <select name="budget" required>
+          <option value="">请选择</option>
+          <option>20 以内（先尝小样）</option>
+          <option>20–50</option>
+          <option>50–100</option>
+          <option>100 以上看品质</option>
+        </select>
+      </label>
+      <label class="field"><span>学校/宿舍区称呼</span><input name="who" required placeholder="例如：沈农东区 / 小赵"/></label>
+    </div>
+    <label class="field"><span>一句补充（可选）</span><textarea name="note" placeholder="例如：想买辽西杂粮；同学聚会想带点靠谱特产。"></textarea></label>
+    <button class="btn btn-p btn-block" type="submit">保存意向到本机</button>
+    <p class="msg" id="prefMsg"></p>
+    <p class="hint">未勾齐五项会拦截；保存后刷新，列表仍能看见称呼与品类。</p>
+  </form>
+</section>
+
+<section class="sec card" id="wish">
+  <h2>一条想买清单</h2>
+  <p>把具体想买的东西写清楚，方便小规模拿货前对照，不写疗效承诺。</p>
+  <form id="wishForm">
+    <div class="row2">
+      <label class="field"><span>品名/品类</span><input name="item" required placeholder="例如：辽西小米 / 蓝莓干"/></label>
+      <label class="field"><span>产地印象（可选）</span><input name="origin" placeholder="例如：朝阳 / 丹东一带"/></label>
+    </div>
+    <div class="row2">
+      <label class="field"><span>用途场景</span>
+        <select name="scene" required>
+          <option value="">请选择</option>
+          <option>宿舍加餐</option>
+          <option>送给同学/家里</option>
+          <option>社团活动茶歇</option>
+          <option>其他</option>
+        </select>
+      </label>
+      <label class="field"><span>可接受价位</span>
+        <select name="price" required>
+          <option value="">请选择</option>
+          <option>先尝再定价</option>
+          <option>约 20–40</option>
+          <option>约 40–80</option>
+          <option>看品质再说</option>
+        </select>
+      </label>
+    </div>
+    <label class="field"><span>最在意的一点</span>
+      <select name="care" required>
+        <option value="">请选择</option>
+        <option>来源说得清</option>
+        <option>口感/新鲜</option>
+        <option>价格别虚高</option>
+        <option>包装适合送礼</option>
+      </select>
+    </label>
+    <label class="field"><span>一句备注</span><textarea name="note" placeholder="例如：别太甜；要能说清产地；不要礼盒溢价。"></textarea></label>
+    <button class="btn btn-p btn-block" type="submit">保存这条想买</button>
+    <p class="msg" id="wishMsg"></p>
+  </form>
+</section>
+
+<section class="sec card">
+  <h2>本周搭建节奏（对应 HW08）</h2>
+  <ul class="tl">
+    <li><strong>Day1–2</strong>按第1周最终方向定标题「想买靠谱本地特产，先留意向」；五项 + 想买清单字段；绿色主调；绿植方向不进页面。</li>
+    <li><strong>Day3–5</strong>上线单页，电脑/手机走通：五项保存、想买清单、11 位手机号校验。</li>
+    <li><strong>Day6–7</strong>电话/当面提纲五问，样本只计沈阳高校在校大学生；同学群点赞不计。</li>
+  </ul>
+</section>
+
+<section class="sec card" id="book">
+  <h2>预约校园小样试尝</h2>
+  <p>留下称呼与手机，方便周末对接试尝。草稿只存本机，不构成付款订单。</p>
+  <form id="bookForm">
+    <div class="row2">
+      <label class="field"><span>怎么称呼</span><input name="name" required placeholder="小王 / 东区同学"/></label>
+      <label class="field"><span>手机号</span><input name="phone" required inputmode="numeric" maxlength="11" placeholder="11位手机号"/></label>
+    </div>
+    <div class="row2">
+      <label class="field"><span>方便时段</span>
+        <select name="slot">
+          <option>课后傍晚</option>
+          <option>周末上午</option>
+          <option>周末下午</option>
+        </select>
+      </label>
+      <label class="field"><span>学校</span>
+        <select name="school">
+          <option>沈阳农业大学</option>
+          <option>沈阳市内其他高校</option>
+        </select>
+      </label>
+    </div>
+    <label class="field"><span>最想先尝清的一件事</span><textarea name="wish" placeholder="例如：杂粮口感；会不会太贵；产地能不能说清"></textarea></label>
+    <button class="btn btn-p btn-block" type="submit">留下预约（仅存本机）</button>
+    <p class="msg" id="bookMsg"></p>
+    <p class="hint">试填五问：能否打开 → 是否看懂是意向收集而非功效广告/建厂招商 → 能否独立勾选 → 愿否两周试填 → 留一句原话。</p>
+    <p style="font-size:12px;color:var(--muted);margin-top:8px">赵建仙 · 18787561579 · 沈阳农业大学植物保护学院 · 24植保创新班</p>
+  </form>
+</section>
+
+<section class="sec card faq">
+  <h2>常见疑问</h2>
+  <details open>
+    <summary>这是不是已经在卖货？</summary>
+    <p>不是。本页只收集试尝意向与想买清单，方便小规模拿货前听同学反馈；真要买货另当面确认。</p>
+  </details>
+  <details>
+    <summary>为什么不做宿舍绿植？</summary>
+    <p>第1周已放弃绿植方向：线上竞品多、难差异化。本页只服务本地农特产意向。</p>
+  </details>
+  <details>
+    <summary>数据会上传吗？</summary>
+    <p>不会。意向、清单、预约都在本机 localStorage；换设备或清缓存会丢，重要内容请自行截图。</p>
+  </details>
+  <details>
+    <summary>会不会大批量进货压货？</summary>
+    <p>不会按本页意向直接大批量进货。第1周已明确：货源与损耗风险用小规模试卖验证。</p>
+  </details>
+</section>
+
+<section class="sec card" id="hist">
+  <h2>本机最近记录</h2>
+  <div id="list"></div>
+  <div class="cta" style="margin-top:10px">
+    <button class="btn btn-g" type="button" id="clear">清空本机记录</button>
+    <button class="btn btn-g" type="button" id="export">导出本机 JSON</button>
+  </div>
+</section>
+
+<footer>
+  <p>赵建仙（学号 2024104100）· 校园本地农特产试尝意向·轻台账 · 路径 B · 不做医疗功效 · 不建厂</p>
+  <p>公网：<code>https://hjw-create.github.io/zhaojx-nongte-mvp/</code> · 联系电话 18787561579</p>
+  <p>本页用于《AI+OPC创业实践》第5周 MVP：验证沈阳高校学生买本地农特产时「线上怕假、线下偏贵」是否值得用校园小样试尝继续验证。</p>
+</footer>
+</main>
+<script>
+(function(){
+  var KEY='zhaojx_nongte_v1';
+  function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}}
+  function save(list){localStorage.setItem(KEY,JSON.stringify(list.slice(0,50)));render()}
+  function stamp(){var d=new Date(),p=function(n){return n<10?'0'+n:''+n};return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+' '+p(d.getHours())+':'+p(d.getMinutes())}
+  function stats(){
+    var list=load(),a=0,w=0,b=0;
+    list.forEach(function(r){if(r.type==='试尝意向')a++;else if(r.type==='想买清单')w++;else if(r.type==='预约试填')b++});
+    document.getElementById('statPref').textContent=a;
+    document.getElementById('statWish').textContent=w;
+    document.getElementById('statBook').textContent=b;
+  }
+  function render(){
+    var list=load(),box=document.getElementById('list');
+    stats();
+    if(!list.length){box.innerHTML="<p style='color:var(--muted);font-size:13px'>还没有记录。先勾意向五项，或写一条想买清单。</p>";return}
+    box.innerHTML=list.map(function(r){return "<div class='item'><b>"+r.type+" · "+r.at+"</b>"+r.summary+"</div>"}).join('');
+  }
+  function bar(){
+    var boxes=document.querySelectorAll('#prefForm input[type=checkbox][name^=c]');
+    var n=0;boxes.forEach(function(b){if(b.checked)n++});
+    document.getElementById('bar').style.width=(n/5*100)+'%';
+    document.getElementById('barText').textContent='已看 '+n+' / 5';
+  }
+  document.querySelectorAll('#prefForm input[type=checkbox][name^=c]').forEach(function(b){b.addEventListener('change',bar)});
+  bar();
+
+  document.getElementById('prefForm').onsubmit=function(e){
+    e.preventDefault();
+    var fd=new FormData(e.target);
+    var n=['c1','c2','c3','c4','c5'].filter(function(k){return fd.get(k)}).length;
+    var msg=document.getElementById('prefMsg');
+    if(n<5){msg.className='msg err';msg.textContent='五项都勾过再保存。';return}
+    var cats=fd.getAll('cat');
+    if(!cats.length){msg.className='msg err';msg.textContent='请至少选一个特产类型。';return}
+    var list=load();
+    list.unshift({type:'试尝意向',at:stamp(),summary:'称呼：'+fd.get('who')+'；品类：'+cats.join('、')+'；痛点：'+fd.get('pain')+'；取货：'+fd.get('pickup')+'；预算：'+fd.get('budget')+'；备注：'+((fd.get('note')||'无').toString().trim()||'无')});
+    save(list);msg.className='msg ok';msg.textContent='意向已保存在本机。本页不付款下单。';
+  };
+
+  document.getElementById('wishForm').onsubmit=function(e){
+    e.preventDefault();
+    var fd=new FormData(e.target);
+    var list=load();
+    list.unshift({type:'想买清单',at:stamp(),summary:'品名：'+fd.get('item')+'；产地印象：'+(fd.get('origin')||'未填')+'；场景：'+fd.get('scene')+'；价位：'+fd.get('price')+'；最在意：'+fd.get('care')+'；备注：'+((fd.get('note')||'无').toString().trim()||'无')});
+    save(list);document.getElementById('wishMsg').className='msg ok';document.getElementById('wishMsg').textContent='想买清单已保存。';
+  };
+
+  document.getElementById('bookForm').onsubmit=function(e){
+    e.preventDefault();
+    var fd=new FormData(e.target);
+    var phone=(fd.get('phone')||'').toString().trim();
+    var msg=document.getElementById('bookMsg');
+    if(!/^1[3-9]\d{9}$/.test(phone)){msg.className='msg err';msg.textContent='请填写11位有效手机号。';return}
+    var list=load();
+    list.unshift({type:'预约试填',at:stamp(),summary:'称呼：'+fd.get('name')+'；手机：'+phone+'；时段：'+fd.get('slot')+'；学校：'+fd.get('school')+'；想尝清：'+((fd.get('wish')||'未写').toString().trim()||'未写')});
+    save(list);msg.className='msg ok';msg.textContent='预约草稿已在本机。';e.target.reset();
+  };
+
+  document.getElementById('clear').onclick=function(){
+    if(!confirm('清空本机全部记录？'))return;localStorage.removeItem(KEY);render();
+  };
+  document.getElementById('export').onclick=function(){
+    var blob=new Blob([JSON.stringify(load(),null,2)],{type:'application/json'});
+    var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='zhaojx-nongte-local.json';a.click();URL.revokeObjectURL(a.href);
+  };
+  render();
+})();
+</script>
+</body>
+</html>
